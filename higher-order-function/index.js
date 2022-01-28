@@ -18,7 +18,7 @@ getUsers(function(data){
 
 
 //simplificando
-const ajaxCallSimplify = callback =>  callback('it is data!');
+const ajaxCallSimplify = callback =>  callback('it is data simplify!');
 
 const  getUsersSimolify = callback => ajaxCallSimplify(data => callback(data));
 
