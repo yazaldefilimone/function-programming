@@ -14,17 +14,31 @@ class GreenLin {
   }
 }
 
+let small = new GreenLin(0);
+let mid = new GreenLin(2);
+let big = new GreenLin(4);
 
-const small = new GreenLin(0);
-const mid = new GreenLin(2);
-const big = new GreenLin(4);
 
-
-const result = big.
+let result = big.
   kill(small)
   .eat(mid)
-  .kill(big.eat(mid));
+  .kill(big.eat(mid)).power;
 
 
-console.log(result);
+console.log(`Object Programming: ${result}`);
+// Function Programming
+
+const kill = (GreenLinOne, GreenLinTwo) => GreenLinOne + GreenLinTwo;
+const eat = (GreenLinOne, GreenLinTwo) => GreenLinOne * GreenLinTwo;
+
+
+small = 0;
+mid = 2;
+big = 4;
+
+result = kill(eat(kill(big, small), mid), eat(big, mid));
+
+
+console.log(`Function Programming: ${result}`);
+
 
