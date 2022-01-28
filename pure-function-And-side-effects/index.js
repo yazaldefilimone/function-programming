@@ -4,13 +4,13 @@ class GreenLin {
   }
 
   kill(greenLin){
-    this.power += greenLin.power;
-    return this;
+    const result = this.power + greenLin.power;
+    return new GreenLin(result)
   }
 
   eat(greenLin){
-    this.power *= greenLin.power;
-    return this
+    const result = this.power * greenLin.power;
+    return new GreenLin(result)
   }
 }
 
@@ -27,3 +27,4 @@ const result = big.
 
 
 console.log(result);
+
