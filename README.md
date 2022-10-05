@@ -11,28 +11,10 @@
 Here I put my studies of function programming.
 A long journey through the world of computer science that aims to become a great programmer and bring efficient solutions to the community is a big change in my professional life.
 
-## Table of Contents
-
-- [Data Structure](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/data-structure)
-- [Algorithms](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/algorithms)
-- [Computer Science](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/computer-science)
-- [Languages](#languages)
-- [License](#license)
-
-<a id="languages"></a>
-
-## Languages
-
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [TypeScript](https://www.typescriptlang.org/)
-- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
-- [Python](https://www.python.org/)
 
 <a id="license"></a>
 
-## License
 
-[MIT](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/blob/main/LICENSE) Project License
 
-Creator with 💙 by [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
+[MIT](https://github.com/yazaldefilimonepinto/algorithms-and-data-structures/blob/main/LICENSE) © [Yazalde Filimone](https://www.linkedin.com/in/yazalde-filimone/)
  
